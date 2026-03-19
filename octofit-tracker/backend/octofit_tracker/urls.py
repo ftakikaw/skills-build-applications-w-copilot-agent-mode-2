@@ -20,6 +20,7 @@ from .views import api_root
 from rest_framework import routers
 from octofit_tracker import views
 
+
 codespace_name = os.environ.get('CODESPACE_NAME')
 if codespace_name:
     base_url = f"https://{codespace_name}-8000.app.github.dev"
